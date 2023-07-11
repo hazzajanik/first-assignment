@@ -1,20 +1,140 @@
-/* header style */
-header{
-
+/* header part style */
+body{
+    font-family: 'Lato', sans-serif;
 }
 
+header{
+      background-color: rgba(229, 84, 115, 0.10);
+      max-width: 1250px;
+      max-height: 500px;
+
+}
 .part0{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:rgba(229, 84, 115, 0.10);
+    gap: 50px;
+  
 
-   
-    
+}
+.part1{
+    padding-left: 200px;
+}
+.part1 .flower-header{
+    color: #272727;
+    font-size: 35px;
+    font-weight: 700;
+    line-height:20px auto;
+    padding-bottom: 1px;
+
+}
+.part1 .flower-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 10px;
+    font-weight: 200;
+    line-height: 20px;
+    padding-top: 1px;
+}
+.button-shop{
+    background-color: #E55473;
+    border: 1px solid #E55473;
+    border-radius: 3px;
+    margin-top:8px ;
+    width: 80px;
+    height: 30px;
+}
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size:10px;
 }
 
+.part2{
+    padding-right: 300px;
+}
 img{
-    width: 635px;
-    height: 800px;
+    height: 300px;
+    width: 300px;
+
+/* main body style */
+}
+main{
+    margin-top: 120px;
+}
+.hot-item{
+    background-color: #E554730D;
+   
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 200px;
+    margin-right: 200px; */
     
+
+    
+
+
+    
+}
+.hot-item-deal .hot-item-header{
+    color: #272727;
+    font-size: 25px;
+    font-weight: 500;
+    text-align:center;
+    /* padding-top: 50px; */
+    padding-left: 10px;
+    
+
+
+
+}
+.hot-item-deal .hot-item-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 10px;
+    font-weight: 200;
+    line-height: 15px;
+    text-align: center;
+    padding-left: 20px;
+    padding-bottom: 1px;
+    
+}
+.hot-item-deal .button-shop{
+    margin-left: 150px;
+    margin-top: 0px;
+    width: 80px;
+    height: 30px;
+}
+.hot-offer-image img{
+    height: 250px;
+    width: 200px;
+    padding-right: 30px;
+
+    /* social media style */
+
+}
+.social-media h4{
+    text-align: center;
+    font-weight: 18px;
+
+    
+}
+.social-media p{
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 10px;
+    font-weight: 200;
+    line-height: 15px;
+    padding-left: 20px;
+    padding-bottom: 1px;
+
+}
+.beautiful-flowers{
+    display: flex;
+    gap: 15px;
+    padding-left: 100px;
+}
+.beautiful-flowers img{
+    height: 250px;
+    width: 250px;
 }

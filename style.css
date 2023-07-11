@@ -14,8 +14,6 @@ header{
     align-items: center;
     justify-content: center;
     gap: 50px;
-  
-
 }
 .part1{
     padding-left: 200px;
@@ -26,7 +24,6 @@ header{
     font-weight: 700;
     line-height:20px auto;
     padding-bottom: 1px;
-
 }
 .part1 .flower-description{
     color: rgba(39, 39, 39, 0.60);
@@ -50,7 +47,7 @@ a{
 }
 
 .part2{
-    padding-right: 300px;
+    padding-right: 150px;
 }
 img{
     height: 300px;
@@ -61,6 +58,69 @@ img{
 main{
     margin-top: 120px;
 }
+/* bonus-part style */
+.Featured{
+    width:1200px;
+    margin:0 auto;
+
+}
+.Featured .div-Featured{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2px;
+}
+.Featured .div-Featured img{
+    width:200px;
+    justify-content: flex-end;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding:30px 30px 0px 30px;
+}
+.Featured .div-Featured .img1{
+    background-color: rgba(167, 33, 98, 0.15);;
+}
+.Featured .div-Featured .img2{
+    background-color: rgba(5, 151, 160, 0.15);;
+}
+.Featured .div-Featured .img3{
+    background-color: rgba(71, 125, 17, 0.15);;
+}
+.Featured .Featured-header{
+    color: #272727;
+    font-size: 25px;
+    font-weight: 500;
+    text-align:center;
+    /* padding-top: 50px; */
+    padding-left: 10px;
+
+}
+.Featured .Featured-para{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 10px;
+    font-weight: 200;
+    line-height: 15px;
+    text-align: center;
+    padding-left: 20px;
+    padding-bottom: 1px;
+
+
+}
+.div-Featured{
+    display: flex;
+}
+.div-Featured .img{
+    height: 250px;
+    width: 200px;
+    padding-right: 20px;
+
+
+}
+
+
+
+
+
 .hot-item{
     background-color: #E554730D;
    
@@ -77,6 +137,10 @@ main{
 
     
 }
+.hot-item{
+    margin-top: 80px;
+
+}
 .hot-item-deal .hot-item-header{
     color: #272727;
     font-size: 25px;
@@ -84,10 +148,6 @@ main{
     text-align:center;
     /* padding-top: 50px; */
     padding-left: 10px;
-    
-
-
-
 }
 .hot-item-deal .hot-item-description{
     color: rgba(39, 39, 39, 0.60);
@@ -108,7 +168,7 @@ main{
 .hot-offer-image img{
     height: 250px;
     width: 200px;
-    padding-right: 30px;
+    padding-right: 20px;
 
     /* social media style */
 
@@ -140,25 +200,39 @@ main{
 }
 /* last part style */
 .last-part{
-    background-image: url('./Rectangle\ 9.png');
-
+    background-image: url('./Rectangle9.png');
+    width:1200px;
+    margin:0 auto;
     height: 250px;
     width: auto;
     margin: 0 89px;
     border-radius: 5px;
     gap:10px;
-
+}
+.last-part .btn-subscribe{
+    display: flex;
+    justify-content: center;
 
 
 }
-
+.last-part .btn-subscribe input{
+    width:400px;
+    border:none;
+    padding:6px;
+    background-color:white;
+}
 .last-part h4{
     text-align: center;
     /* ont-weight: 18px; */
     margin-top:20px ;
     padding-top: 55px;
-
-    
+}
+.btn-shop{
+    padding:12px;
+    border:none;
+    color:#fff;
+    background-color: #E55473;
+    margin-left:7px
 }
 .last-part p{
     text-align: center;
@@ -166,18 +240,6 @@ main{
     font-size: 10px;
     padding-top: 10px;
 
-}
-.last-part .text-box{
-    margin-left: 430px;
-    padding-left: 50px;
-    padding-right: 10px;
-    border: 1px solid #ffffff ;
-    border-radius: 3px;
-
-    
-}
-.last-part .button-shop{
-    margin-left:495px ;
 }
 
 /* footer style  */
@@ -191,8 +253,9 @@ footer h3{
     color: #FFFFFFE5;
     text-align: center;
     /* ont-weight: 18px; */
-    margin-top:20px ;
-    padding-top: 55px;
+    margin-top:25px ;
+    padding-top: 70px;
+
 
 }
 h3 span{
